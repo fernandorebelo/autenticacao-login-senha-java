@@ -1,5 +1,9 @@
 # Sistema de autenticação de login, senha e verificação de e-mail do usuário
 
+Desenvolvido no curso de Developer - TI.
+
+[Curso developer TI - Full stack](https://www.devtisul.com.br/) 
+
 ### Como funciona
 É solicitado ao usuário cadastrar seu Nome, Login, Senha e E-mail válido.
 
