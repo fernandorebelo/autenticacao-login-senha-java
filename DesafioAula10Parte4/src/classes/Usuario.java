@@ -10,17 +10,11 @@ public class Usuario {
 	public String senha;
 	public String email;
 	
-	public void cadastroUsuario() {
-		nome = JOptionPane.showInputDialog("Cadastro - Nome: ");
-		do {
-			email = JOptionPane.showInputDialog("Cadastro - E-mail: ");
-			validarEmail(email);
-			if(validarEmail(email) == false) {
-				JOptionPane.showMessageDialog(null, "E-mail inválido! Digite novamente!");
-			}
-		} while (validarEmail(email) == false);
-		login = JOptionPane.showInputDialog("Cadastro - Login: ");
-		senha = JOptionPane.showInputDialog("Cadastro - Senha: ");
+	public void cadastroUsuario(String nome, String email, String login, String senha) {
+		this.nome = nome;
+		this.email = email;
+		this.login = login;
+		this.senha = senha;
 	}
 
 	public static boolean validarEmail(String email) {
