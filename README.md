@@ -1,6 +1,6 @@
 # Sistema de autenticação de login, senha e verificação de e-mail do usuário
 
-### Sistema
+### Como funciona
 É solicitado ao usuário cadastrar seu Nome, Login, Senha e E-mail válido.
 
 É verificado se o E-mail inserido contém '@' e '.', caso verdadeiro o código continua.
